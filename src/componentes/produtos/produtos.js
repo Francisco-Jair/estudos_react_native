@@ -1,0 +1,17 @@
+export default [
+  { id: 1, nome: "MacBook pro", preco: 9.99 },
+  { id: 2, nome: "Iphone", preco: 9.99 },
+  { id: 3, nome: "Xbox", preco: 9.99 },
+  { id: 4, nome: "Playstation 1", preco: 9.99 },
+  { id: 5, nome: "Playstation 2", preco: 9.99 },
+  { id: 6, nome: "Playstation 3", preco: 9.99 },
+  { id: 7, nome: "Playstation 4", preco: 9.99 },
+  { id: 8, nome: "Playstation 5", preco: 9.99 },
+  { id: 9, nome: "Xbox serios X", preco: 9.99 },
+  { id: 10, nome: "Xbox serios S", preco: 9.99 },
+  { id: 11, nome: "notebook Alien", preco: 9.99 },
+  { id: 12, nome: "Desktop HP", preco: 9.99 },
+  { id: 13, nome: "Xbox 360", preco: 9.99 },
+  { id: 14, nome: "Xbox one", preco: 9.99 },
+  { id: 15, nome: "Apple Watch", preco: 9.99 },
+];

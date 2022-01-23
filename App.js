@@ -13,11 +13,13 @@ import RenderazicaoCondicional from "./src/componentes/RenderazicaoCondicional";
 import Familia from "./src/componentes/relacao/Familia";
 import Membro from "./src/componentes/relacao/Membro";
 import UsuarioLogado from "./src/componentes/UsuarioLogado";
+import ListaDeProdutos from "./src/componentes/produtos/ListaProdutos";
 
 export default function App() {
   return (
     <SafeAreaView style={style.app}>
-      <UsuarioLogado usuario={{ nome: "Jair", email: "fjair@gmail.com" }} />
+      <ListaDeProdutos />
+      {/* <UsuarioLogado usuario={{ nome: "Jair", email: "fjair@gmail.com" }} /> */}
       {/* <Familia>
         <Membro nome="Jair" sobrenome="Oliveira" />
         <Membro nome="Shelda" sobrenome="Oliveira" />
