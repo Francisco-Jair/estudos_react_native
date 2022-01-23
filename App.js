@@ -2,11 +2,13 @@ import { Text, SafeAreaView, StyleSheet } from "react-native";
 import Primeiro from "./src/componentes/Primeiro";
 import Comp, { Comp1, Comp2 } from "./src/componentes/Multi";
 import MinMax from "./src/componentes/MinMax";
+import Aleatorio from "./src/componentes/Aleatorio";
 
 export default function App() {
   return (
     <SafeAreaView style={style.app}>
-      <MinMax min="3" max={5} />
+      <Aleatorio min={5} max={9} />
+      {/* <MinMax min="3" max={5} /> */}
       {/* <Comp /> */}
       {/* <Comp1 /> */}
       {/* <Comp2 /> */}
