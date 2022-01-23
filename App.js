@@ -10,11 +10,21 @@ import Pai from "./src/componentes/direta/Pai";
 import PaiIndireto from "./src/componentes/Indireta/Pai";
 import DiferencaPlataforma from "./src/componentes/DiferencaPlataforma";
 import RenderazicaoCondicional from "./src/componentes/RenderazicaoCondicional";
+import Familia from "./src/componentes/relacao/Familia";
+import Membro from "./src/componentes/relacao/Membro";
 
 export default function App() {
   return (
     <SafeAreaView style={style.app}>
-      <RenderazicaoCondicional num={2} />
+      <Familia>
+        <Membro nome="Jair" sobrenome="Oliveira" />
+        <Membro nome="Shelda" sobrenome="Oliveira" />
+      </Familia>
+      <Familia>
+        <Membro nome="Carlos" sobrenome="Silva" />
+        <Membro nome="Paula" sobrenome="Silva" />
+      </Familia>
+      {/* <RenderazicaoCondicional num={2} /> */}
       {/* <DiferencaPlataforma /> */}
       {/* <PaiIndireto /> */}
       {/* <Pai /> */}
