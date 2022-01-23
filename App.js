@@ -6,11 +6,13 @@ import Aleatorio from "./src/componentes/Aleatorio";
 import Frag from "./src/componentes/Frag";
 import Botao from "./src/componentes/Botao";
 import Contador from "./src/componentes/Contador";
+import Pai from "./src/componentes/direta/Pai";
 
 export default function App() {
   return (
     <SafeAreaView style={style.app}>
-      <Contador inicial={0} />
+      <Pai />
+      {/* <Contador inicial={0} /> */}
       {/* <Botao /> */}
       {/* <Frag /> */}
       {/* <Aleatorio min={5} max={9} /> */}
