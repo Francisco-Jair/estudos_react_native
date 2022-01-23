@@ -14,11 +14,14 @@ import Familia from "./src/componentes/relacao/Familia";
 import Membro from "./src/componentes/relacao/Membro";
 import UsuarioLogado from "./src/componentes/UsuarioLogado";
 import ListaDeProdutos from "./src/componentes/produtos/ListaProdutos";
+import DigiteSeuNome from "./src/componentes/DigiteSeuNome";
 
 export default function App() {
   return (
     <SafeAreaView style={style.app}>
-      <ListaDeProdutos />
+      
+      <DigiteSeuNome />
+      {/* <ListaDeProdutos /> */}
       {/* <UsuarioLogado usuario={{ nome: "Jair", email: "fjair@gmail.com" }} /> */}
       {/* <Familia>
         <Membro nome="Jair" sobrenome="Oliveira" />
