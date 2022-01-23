@@ -5,11 +5,13 @@ import MinMax from "./src/componentes/MinMax";
 import Aleatorio from "./src/componentes/Aleatorio";
 import Frag from "./src/componentes/Frag";
 import Botao from "./src/componentes/Botao";
+import Contador from "./src/componentes/Contador";
 
 export default function App() {
   return (
     <SafeAreaView style={style.app}>
-      <Botao />
+      <Contador inicial={0} />
+      {/* <Botao /> */}
       {/* <Frag /> */}
       {/* <Aleatorio min={5} max={9} /> */}
       {/* <MinMax min="3" max={5} /> */}
