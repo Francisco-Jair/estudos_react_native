@@ -9,11 +9,13 @@ import Contador from "./src/componentes/Contador";
 import Pai from "./src/componentes/direta/Pai";
 import PaiIndireto from "./src/componentes/Indireta/Pai";
 import DiferencaPlataforma from "./src/componentes/DiferencaPlataforma";
+import RenderazicaoCondicional from "./src/componentes/RenderazicaoCondicional";
 
 export default function App() {
   return (
     <SafeAreaView style={style.app}>
-      <DiferencaPlataforma />
+      <RenderazicaoCondicional num={2} />
+      {/* <DiferencaPlataforma /> */}
       {/* <PaiIndireto /> */}
       {/* <Pai /> */}
       {/* <Contador inicial={0} /> */}
