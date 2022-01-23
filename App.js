@@ -12,18 +12,20 @@ import DiferencaPlataforma from "./src/componentes/DiferencaPlataforma";
 import RenderazicaoCondicional from "./src/componentes/RenderazicaoCondicional";
 import Familia from "./src/componentes/relacao/Familia";
 import Membro from "./src/componentes/relacao/Membro";
+import UsuarioLogado from "./src/componentes/UsuarioLogado";
 
 export default function App() {
   return (
     <SafeAreaView style={style.app}>
-      <Familia>
+      <UsuarioLogado usuario={{ nome: "Jair", email: "fjair@gmail.com" }} />
+      {/* <Familia>
         <Membro nome="Jair" sobrenome="Oliveira" />
         <Membro nome="Shelda" sobrenome="Oliveira" />
       </Familia>
       <Familia>
         <Membro nome="Carlos" sobrenome="Silva" />
         <Membro nome="Paula" sobrenome="Silva" />
-      </Familia>
+      </Familia> */}
       {/* <RenderazicaoCondicional num={2} /> */}
       {/* <DiferencaPlataforma /> */}
       {/* <PaiIndireto /> */}
