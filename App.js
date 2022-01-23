@@ -1,9 +1,10 @@
 import { Text, SafeAreaView } from "react-native";
+import Primeiro from "./src/componentes/Primeiro";
 
 export default function App() {
   return (
     <SafeAreaView>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Primeiro />
     </SafeAreaView>
   );
 }
