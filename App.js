@@ -20,7 +20,7 @@ export default function App() {
   return (
     <SafeAreaView style={style.app}>
       
-      <DigiteSeuNome />
+      {/* <DigiteSeuNome /> */}
       {/* <ListaDeProdutos /> */}
       {/* <UsuarioLogado usuario={{ nome: "Jair", email: "fjair@gmail.com" }} /> */}
       {/* <Familia>
