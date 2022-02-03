@@ -17,12 +17,14 @@ import ListaDeProdutos from "./src/componentes/produtos/ListaProdutos";
 import DigiteSeuNome from "./src/componentes/DigiteSeuNome";
 // import Quadrado from "./src/componentes/layout/Quadrado";
 // import FlexboxV1 from "./src/componentes/layout/FlexboxV1";
-import FlexboxV2 from "./src/componentes/layout/FlexboxV2";
+// import FlexboxV2 from "./src/componentes/layout/FlexboxV2";
+import FlexboxV3 from "./src/componentes/layout/FlexboxV3";
 
 export default function App() {
   return (
     <SafeAreaView style={style.app}>
-      <FlexboxV2 />
+      <FlexboxV3 />
+      {/* <FlexboxV2 /> */}
       {/* <FlexboxV1 /> */}
       {/* <DigiteSeuNome /> */}
       {/* <ListaDeProdutos /> */}

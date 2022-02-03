@@ -7,8 +7,8 @@ export default function Quadrado(props) {
   return (
     <View
       style={{
-        height: lado,
-        width: lado,
+        height: props.lado || lado,
+        width: props.lado || lado,
         backgroundColor: props.cor || "#000",
       }}
     ></View>
