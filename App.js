@@ -15,11 +15,17 @@ import Membro from "./src/componentes/relacao/Membro";
 import UsuarioLogado from "./src/componentes/UsuarioLogado";
 import ListaDeProdutos from "./src/componentes/produtos/ListaProdutos";
 import DigiteSeuNome from "./src/componentes/DigiteSeuNome";
+import Quadrado from "./src/componentes/layout/Quadrado";
 
 export default function App() {
   return (
     <SafeAreaView style={style.app}>
-      
+      <Quadrado />
+      <Quadrado cor="#F00" />
+      <Quadrado cor="#00F" />
+      <Quadrado cor="#979" />
+      <Quadrado cor="#920" />
+
       {/* <DigiteSeuNome /> */}
       {/* <ListaDeProdutos /> */}
       {/* <UsuarioLogado usuario={{ nome: "Jair", email: "fjair@gmail.com" }} /> */}
