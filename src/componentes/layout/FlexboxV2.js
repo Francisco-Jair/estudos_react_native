@@ -2,7 +2,7 @@ import React from "react";
 import { View, StyleSheet } from "react-native";
 import Quadrado from "./Quadrado";
 
-export default function FlexboxV1(props) {
+export default function FlexboxV2(props) {
   return (
     <View style={style.flexV2}>
       <Quadrado cor="#963" />

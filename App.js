@@ -19,11 +19,13 @@ import DigiteSeuNome from "./src/componentes/DigiteSeuNome";
 // import FlexboxV1 from "./src/componentes/layout/FlexboxV1";
 // import FlexboxV2 from "./src/componentes/layout/FlexboxV2";
 import FlexboxV3 from "./src/componentes/layout/FlexboxV3";
+import FlexboxV4 from "./src/componentes/layout/FlexboxV4";
 
 export default function App() {
   return (
     <SafeAreaView style={style.app}>
-      <FlexboxV3 />
+      <FlexboxV4 />
+      {/* <FlexboxV3 /> */}
       {/* <FlexboxV2 /> */}
       {/* <FlexboxV1 /> */}
       {/* <DigiteSeuNome /> */}
