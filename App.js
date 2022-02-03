@@ -15,17 +15,13 @@ import Membro from "./src/componentes/relacao/Membro";
 import UsuarioLogado from "./src/componentes/UsuarioLogado";
 import ListaDeProdutos from "./src/componentes/produtos/ListaProdutos";
 import DigiteSeuNome from "./src/componentes/DigiteSeuNome";
-import Quadrado from "./src/componentes/layout/Quadrado";
+// import Quadrado from "./src/componentes/layout/Quadrado";
+import FlexboxV1 from "./src/componentes/layout/FlexboxV1";
 
 export default function App() {
   return (
     <SafeAreaView style={style.app}>
-      <Quadrado />
-      <Quadrado cor="#F00" />
-      <Quadrado cor="#00F" />
-      <Quadrado cor="#979" />
-      <Quadrado cor="#920" />
-
+      <FlexboxV1 />
       {/* <DigiteSeuNome /> */}
       {/* <ListaDeProdutos /> */}
       {/* <UsuarioLogado usuario={{ nome: "Jair", email: "fjair@gmail.com" }} /> */}
