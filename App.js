@@ -25,7 +25,7 @@ import Mega from "./src/componentes/Mega/Mega";
 export default function App() {
   return (
     <SafeAreaView style={style.app}>
-      <Mega />
+      <Mega qNumero={7} />
       {/* <FlexboxV4 /> */}
       {/* <FlexboxV3 /> */}
       {/* <FlexboxV2 /> */}
