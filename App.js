@@ -21,11 +21,13 @@ import DigiteSeuNome from "./src/componentes/DigiteSeuNome";
 import FlexboxV3 from "./src/componentes/layout/FlexboxV3";
 import FlexboxV4 from "./src/componentes/layout/FlexboxV4";
 import Mega from "./src/componentes/Mega/Mega";
+import MostrarLink from "./src/componentes/MostrarLink";
 
 export default function App() {
   return (
     <SafeAreaView style={style.app}>
-      <Mega qNumero={70} />
+      <MostrarLink />
+      {/* <Mega qNumero={70} /> */}
       {/* <FlexboxV4 /> */}
       {/* <FlexboxV3 /> */}
       {/* <FlexboxV2 /> */}
